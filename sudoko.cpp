@@ -1,6 +1,3 @@
-//JBV  
-/*        “ I wear my heart on my sleeve and my resume on my uniform       ”   */
-
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -105,8 +102,7 @@ pair<int,int> board :: vacant(){
 }
 
 int main(){
-/*         "    I believe anything that doesn't kill you makes you stranger    "    */
-    board ob;
+   board ob;
        ob.getboard();
        if(ob.solve()) ob.display();      
        else cout << " Solution Does not exist";
